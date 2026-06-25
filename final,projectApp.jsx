@@ -1,8 +1,8 @@
 import React, { useState, createContext, useContext } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from 'react-router-dom';
 import { ShoppingCart, Heart, Monitor, Cpu, Menu, X, Search, ChevronRight } from 'lucide-react';
-import { prebuiltPCs, pcParts } from './mockData';
-import './index.css';
+import { prebuiltPCs, pcParts } from "./final,projectmockData";
+import "./final,projectindex.css";
 
 // --- State Management ---
 const AppContext = createContext();
